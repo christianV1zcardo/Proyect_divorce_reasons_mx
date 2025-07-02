@@ -33,20 +33,20 @@ Se generaron diversas visualizaciones para entender las distribuciones de las va
     * `Tipo_divor`: Se notó una distribución relativamente equilibrada entre divorcios "Necesarios" y "Voluntarios".
     * `Custodia`: La "MADRE" fue la opción de custodia predominantemente más frecuente.
 
-![dist1.png]
+![dist1](images/dist1.png)
 
 * **Distribuciones de Variables Cuantitativas (Histogramas):**
     * `Edad_Do`, `Edad_Da`, `Matri_Años`, `Num_Hijos`: Se analizaron las formas de las distribuciones, la presencia de sesgos y la concentración de valores.
     * **Ingresos (`ElIngreso`, `EllaIngreso`):** Se confirmó que estas variables presentan una distribución extremadamente sesgada, con una gran concentración de valores en cero (o muy bajos) y una cola larga de valores atípicos, haciendo que las relaciones directas fueran difíciles de visualizar.
 
-![dist2.png]
-![dist3.png]
+![dist2.png](images/dist2.png)
+![dist3.png](images/dist3.png)
 
 * **Análisis Relacional de Ingresos:**
     * **Ingresos vs. Años de Matrimonio (Scatterplots con Línea de Regresión):** Incluso tras el filtrado de valores cero y outliers extremos, las líneas de regresión para `ElIngreso` y `EllaIngreso` vs. `Matri_Años` mostraron ser **casi planas**. Esto indica una **ausencia de correlación lineal significativa** entre el nivel de ingresos y la duración del matrimonio en este dataset.
     * **`Genero_mayor_ingresos` vs. Otras Variables:** Las comparaciones entre esta variable categórica derivada y otras variables (como `Matri_Años`, `Tipo_divor`, `Custodia`, `ElEscolaridad`) revelaron que las distribuciones de estas últimas eran **relativamente consistentes** en los grupos de `Genero_mayor_ingresos`. Por ejemplo, la custodia materna siguió siendo dominante, y la proporción de tipos de divorcio se mantuvo similar, independientemente de quién tenía mayores ingresos.
 
-![an1.png]
+![an1.png](images/an1.png)
 
 ## 4. Hallazgos Clave
 
